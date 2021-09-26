@@ -1,20 +1,29 @@
 import React, { useEffect, useState } from 'react';
+import AddedPerson from '../addedPerson/AddedPerson';
 import Person from '../person/Person';
 import './persons.css'
 const Persons = () => {
     const [persons, setPersons] = useState([])
     const [addedPersons, setAddedPerson] = useState([])
+
     useEffect(() => {
         fetch('./persons.json')
         .then(res => res.json())
         .then(data => setPersons(data))
     },[])
+
     const handleAddedPerson = (props) => {
         const singlePerson = persons.find(person => person.id === props.id )
         const addedPerson = [...addedPersons, singlePerson]
-        setAddedPerson(addedPerson)
+
+        // remove duplicate person from added person
+
+        const removeDuplicatePerson = addedPerson.filter((person, index,array)=> array.indexOf(person) === index )
+        setAddedPerson(removeDuplicatePerson)
     }
-    const total = addedPersons.reduce((previous , current) => previous + current.salary,0 )
+
+    const total = addedPersons.reduce((previous , current) => previous + current.salary,0)
+
     return (
         <div className='person-data-container'>
             <div className='person-container'>
@@ -24,7 +33,10 @@ const Persons = () => {
             </div>
             <div className='person-data'>
                 <p>Player Added: {addedPersons.length} </p>
-                <p>Total Cost: {total} </p>
+                <p>Total Cost: ${total} </p>
+                {
+                    addedPersons.map(person => <AddedPerson key={person.id} person={person}/>)
+                }
             </div>
         </div>
     );

@@ -31,7 +31,7 @@ const Person = (props) => {
                     </tr>
                 </tbody>
             </table>
-            <button onClick={() => props.handleAddedPerson(props.persons)} className='addToCart'>Add to Cart</button>
+            <button onClick={() => props.handleAddedPerson(props.persons)} className='addToCart'><i className="fas fa-user-circle"></i> Add to Cart </button>
         </div>
     );
 };

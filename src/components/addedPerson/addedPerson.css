@@ -1,0 +1,20 @@
+.addedPerson-image img{
+    width: 50px;
+    height: 50px;
+}
+.addedPerson{
+    border: 2px solid #F0A500;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 5px 0;
+    border-radius: 10px;
+}
+.fa-window-close{
+    font-size: 22px;
+    color: red;
+    cursor: pointer;
+}

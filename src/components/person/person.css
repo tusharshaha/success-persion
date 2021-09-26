@@ -1,7 +1,8 @@
 .card{
-    border: 2px solid gray;
+    border: 2px solid #F0A500;
     padding: 10px 20px;
     text-align: center;
+    border-radius: 10px;
 
 }
 .person-img{
@@ -19,11 +20,16 @@ table > tbody > tr > td {
 }
 table{
     margin-top: 10px;
-    width: 100%;
+    text-align: left;
 
 }
 .addToCart{
     padding: 5px 40px;
     margin-top: 10px ;
     font-weight: 700;
+    background-color: #F0A500;
+    border: none;
+    font-size: 17px;
+    color: black;
+    cursor: pointer;
 }

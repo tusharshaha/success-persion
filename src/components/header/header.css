@@ -2,7 +2,8 @@
     line-height: 15px;
     text-align: center;
     padding: 10px 20px;
-    border: 2px solid black;
+    color: #000000;
+    background-color: #F0A500;
 }
 .header-container h1{
     font-weight: 400;
