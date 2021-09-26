@@ -1,0 +1,92 @@
+[
+    {
+      "id":1,
+      "name": "Mark Zukerberg",
+      "company": "Facebook",
+      "age": 37,
+      "country": "USA",
+      "salary": 3700000,
+      "image": "https://i.pinimg.com/564x/4d/b8/c0/4db8c0cc65926654b029a8503b31d922.jpg"
+    },
+    {
+      "id":2,
+      "name": "Jeff Besos",
+      "company": "Amazon",
+      "age": 57,
+      "country": "USA",
+      "salary": 6500000,
+      "image": "https://i.pinimg.com/564x/ff/b8/3f/ffb83f79b5f474701ed890b957477130.jpg"
+    },
+    {
+      "id":3,
+      "name": "Elon Musk",
+      "company": "Tesla",
+      "age": 50,
+      "country": "USA",
+      "salary": 5200000,
+      "image": "https://i.pinimg.com/564x/cf/f6/3a/cff63a2c7815edecaa0c00d6b6b0a6e5.jpg"
+    },
+    {
+      "id":4,
+      "name": "Bill Gates",
+      "company": "Microsoft",
+      "age": 65,
+      "country": "USA",
+      "salary": 6300000,
+      "image": "https://i.pinimg.com/564x/3c/35/8c/3c358c32f8f31e5f086059e4fb02438f.jpg"
+    },
+    {
+      "id":5,
+      "name": "Steve Jobs",
+      "company": "Apple",
+      "age": 56,
+      "country": "USA",
+      "salary": 2700000,
+      "image": "https://i.pinimg.com/564x/c9/a5/bb/c9a5bb5aae47d49a96a1c9d5b9e5d1aa.jpg"
+    },
+    {
+      "id":6,
+      "name": "Sundar Pichai",
+      "company": "Google",
+      "age": 49,
+      "country": "USA",
+      "salary": 7100000,
+      "image": "https://i.pinimg.com/564x/78/f7/c5/78f7c57534670a8ae692921b9822607f.jpg"
+    },
+    {
+      "id":7,
+      "name": "Jack Dorsey",
+      "company": "Twitter",
+      "age": 44,
+      "country": "USA",
+      "salary": 2800000,
+      "image": "https://i.pinimg.com/564x/31/97/99/3197995020f09aa9711fcd0fa7ecac72.jpg"
+    },
+    {
+      "id":8,
+      "name": "Jack Ma",
+      "company": "Alibaba",
+      "age": 57,
+      "country": "Chinese",
+      "salary": 4600000,
+      "image": "https://i.pinimg.com/564x/7e/d5/37/7ed5370d5d5e69801225f23b7465e27e.jpg"
+    },
+    {
+      "id":9,
+      "name": "Susan Wojcicki",
+      "company": "Youtube",
+      "age": 53,
+      "country": "USA",
+      "salary": 3600000,
+      "image": "https://i.pinimg.com/564x/d2/31/48/d231485fb8b88ce5773935cefe07aa01.jpg"
+    },
+    {
+      "id":10,
+      "name": "Jhankar Mahbub",
+      "company": "Programming Hero",
+      "age": 34,
+      "country": "Bangaldesh",
+      "salary": 2300000,
+      "image": "https://scontent.fcgp27-1.fna.fbcdn.net/v/t1.6435-9/51500042_10155920746981891_4432846951771275264_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=730e14&_nc_ohc=OAm5mH5Yyg8AX9SJG6i&_nc_ht=scontent.fcgp27-1.fna&oh=ecea66725f81cef34603d5d97798e867&oe=6177643B"
+    }
+  ]

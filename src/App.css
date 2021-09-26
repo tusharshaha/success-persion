@@ -1,0 +1,9 @@
+/* google font poopins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');;
+.App{
+  font-family: 'Poppins', sans-serif;
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+}

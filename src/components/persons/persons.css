@@ -1,0 +1,14 @@
+.person-data-container{
+    display: grid;
+    grid-template-columns: 6fr 2fr;
+    margin: 40px 0;
+}
+.person-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-right: 20px;
+}
+.person-data{
+    font-weight: bold;
+}
