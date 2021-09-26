@@ -6,7 +6,9 @@ function App() {
   return (
     <div className="App data-container">
       <div className='container'>
+        {/* this is header component  */}
         <Header/>
+        {/* this is persons component  */}
         <Persons/>
       </div>
     </div>
