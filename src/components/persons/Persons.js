@@ -37,7 +37,7 @@ const Persons = () => {
             <div className='person-data'>
                 {/* this is person data  */}
 
-                <p>Player Added: {addedPersons.length} </p>
+                <p>Person Added: {addedPersons.length} </p>
                 <p>Total Cost: $ {total} </p>
                 {
                     addedPersons.map(person => <AddedPerson key={person.id} person={person}/>)
